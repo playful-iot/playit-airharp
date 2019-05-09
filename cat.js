@@ -9,7 +9,7 @@ const parser = port.pipe(new Regex({ regex: /[\r\n]+/ }))
 parser.on('data', function(data) {
     if(data < 'R015') {
 
-	new Sound('cat.mp3').play();
+	new Sound('cat.wav').play();
 
         console.log('Data: ' + data + ' is smaller than R015');
     }
