@@ -11,7 +11,7 @@ parser.on('data', function(data) {
 
 	new Sound('piano-e.wav').play();
 
-        console.log('Data: ' + data + ' is smaller than R015');
+        console.log('Distance: ' + data + ' is smaller than R015');
     }
 });
  

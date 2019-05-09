@@ -11,6 +11,6 @@ parser.on('data', function(data) {
 
 	new Sound('meow.wav').play();
 
-        console.log('Data: ' + data + ' is smaller than R015');
+        console.log('Distance : ' + data + ' is smaller than R015');
     }
 });
